@@ -1,0 +1,46 @@
+body{
+    background-size: cover;
+}
+.heading{
+    font-size: 23px;
+    width: 100%;
+}
+.note{
+    color: black;
+    font-size: 15px;
+}
+@keyframes example {
+    0%  {color: #ff0000;}
+    4%  {color: #ff4000;}
+    8%  {color: #ff8000;}
+    12% {color: #ffbf00;}
+    16% {color: #ffff00;}
+    20% {color: #bfff00;}
+    24% {color: #80ff00;}
+    28% {color: #40ff00;}
+    32% {color: #00ff00;}
+    36% {color: #00ff40;}
+    40% {color: #00ff80;}
+    44% {color: #00ffbf;}
+    48% {color: #00ffff;}
+    52% {color: #00bfff;}
+    56% {color: #0080ff;}
+    60% {color: #0040ff;}
+    64% {color: #0000ff;}
+    68% {color: #4000ff;}
+    72% {color: #8000ff;}
+    76% {color: #bf00ff;}
+    80% {color: #ff00ff;}
+    84% {color: #ff00bf;}
+    88% {color: #ff0080;}
+    92% {color: #ff0040;}
+    96% {color: #ff0000;}
+    100%{color: #ff0000;}
+}
+.sndesign{
+    font-size: 32px;
+    width: 100%;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
